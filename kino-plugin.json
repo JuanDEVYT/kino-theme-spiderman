@@ -1,0 +1,183 @@
+{
+  "id": "spider-theme",
+  "name": "Araña",
+  "version": "1.0.0",
+  "apiVersion": 18,
+  "entry": "plugin.js",
+  "description": "Tema rojo y azul para toda la app, con telaraña y sombras hondas",
+  "author": "JuanDEVYT",
+  "homepage": "https://github.com/JuanDEVYT/kino-theme-spiderman",
+  "hosts": [],
+  "categories": [
+    "themes"
+  ],
+  "capabilities": [
+    "screen"
+  ],
+  "color": "#D62828",
+  "icon": "icon.png",
+  "screen": {
+    "label": "Araña",
+    "labelEn": "Spider",
+    "opensFrom": [
+      "menu"
+    ]
+  },
+  "appThemes": [
+    {
+      "id": "spider",
+      "name": {
+        "es": "Araña",
+        "en": "Spider"
+      },
+      "colors": {
+        "accent": "#D62828",
+        "onAccent": "#FFFFFF",
+        "background": "#0B0D17",
+        "surface": "#151A2E",
+        "surfaceHigh": "#1E2540",
+        "textPrimary": "#F6F7FB",
+        "textSecondary": "#A9B4D0",
+        "outline": "#2A3350",
+        "focus": "#4C7DFF",
+        "onFocus": "#000000",
+        "railPanel": "#0F1424",
+        "placeholderTop": "#1B2440",
+        "placeholderBottom": "#0D1120",
+        "success": "#2FBF71",
+        "warning": "#F2B233",
+        "error": "#FF5A5F",
+        "favorite": "#FF4D6D",
+        "scrim": "#000000"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#0B0D17",
+          "#160A14"
+        ],
+        "angle": 200
+      },
+      "shape": {
+        "cardRadius": 14,
+        "channelRadius": 14,
+        "buttonRadius": 22,
+        "chipRadius": 18,
+        "dialogRadius": 20,
+        "inputRadius": 12
+      },
+      "typography": {
+        "scale": 1,
+        "titleScale": 1.04,
+        "bodyScale": 1
+      },
+      "elevation": {
+        "cardShadow": 0.55,
+        "dialogShadow": 0.7,
+        "heroScrim": 0.7
+      },
+      "motion": {
+        "focusZoom": 1.08,
+        "crossfadeMs": 240,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonScale": 1.05,
+        "playButtonScale": 1.2,
+        "seekBarScale": 1.1,
+        "labelScale": 1,
+        "buttonShape": "circle"
+      },
+      "phone": {
+        "shape": {
+          "cardRadius": 16
+        }
+      },
+      "tv": {
+        "typography": {
+          "scale": 1.05
+        },
+        "shape": {
+          "cardRadius": 10
+        },
+        "motion": {
+          "focusZoom": 1.06
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#D62828",
+            "#E63946",
+            "#C1121F",
+            "#2E5BFF"
+          ]
+        },
+        "colors.focus": {
+          "swatches": [
+            "#4C7DFF",
+            "#FFD166",
+            "#FFFFFF"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 24
+        },
+        "shape.buttonRadius": {
+          "min": 0,
+          "max": 32
+        },
+        "typography.scale": {
+          "min": 0.9,
+          "max": 1.25
+        },
+        "player.playButtonScale": {
+          "min": 1,
+          "max": 1.4
+        },
+        "background": true
+      },
+      "pluginColors": "respect",
+      "experience": "full",
+      "logo": {
+        "mark": {
+          "size": [
+            30,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 12.1 A4.5 5.5 0 1 0 15 23.1 A4.5 5.5 0 1 0 15 12.1 Z M15 7 A2.9 2.9 0 1 0 15 12.8 A2.9 2.9 0 1 0 15 7 Z M16.65 12.76 L23.96 9.35 L23.35 8.04 L16.04 11.45 Z M23.12 10.01 L27.61 4.28 L26.48 3.39 L21.99 9.12 Z M13.96 11.45 L6.65 8.04 L6.04 9.35 L13.35 12.76 Z M8.01 9.12 L3.52 3.39 L2.39 4.28 L6.88 10.01 Z M16.99 14.61 L25.41 13.41 L25.21 11.99 L16.79 13.19 Z M24.46 13.81 L29.61 9.94 L28.74 8.79 L23.59 12.66 Z M13.21 13.19 L4.79 11.99 L4.59 13.41 L13.01 14.61 Z M6.41 12.66 L1.26 8.79 L0.39 9.94 L5.54 13.81 Z M16.79 18.01 L25.21 19.21 L25.41 17.79 L16.99 16.59 Z M23.59 18.48 L28.68 22.81 L29.61 21.72 L24.52 17.39 Z M13.01 16.59 L4.59 17.79 L4.79 19.21 L13.21 18.01 Z M5.48 17.39 L0.39 21.72 L1.32 22.81 L6.41 18.48 Z M16.03 20.22 L23.32 23.87 L23.97 22.58 L16.68 18.93 Z M21.99 22.79 L26.49 28.41 L27.61 27.51 L23.11 21.89 Z M13.32 18.93 L6.03 22.58 L6.68 23.87 L13.97 20.22 Z M6.89 21.89 L2.39 27.51 L3.51 28.41 L8.01 22.79 Z",
+              "fill": "accent"
+            }
+          ]
+        },
+        "wordmark": {
+          "size": [
+            120,
+            30
+          ],
+          "paths": [
+            {
+              "d": "M15 12.1 A4.5 5.5 0 1 0 15 23.1 A4.5 5.5 0 1 0 15 12.1 Z M15 7 A2.9 2.9 0 1 0 15 12.8 A2.9 2.9 0 1 0 15 7 Z M16.65 12.76 L23.96 9.35 L23.35 8.04 L16.04 11.45 Z M23.12 10.01 L27.61 4.28 L26.48 3.39 L21.99 9.12 Z M13.96 11.45 L6.65 8.04 L6.04 9.35 L13.35 12.76 Z M8.01 9.12 L3.52 3.39 L2.39 4.28 L6.88 10.01 Z M16.99 14.61 L25.41 13.41 L25.21 11.99 L16.79 13.19 Z M24.46 13.81 L29.61 9.94 L28.74 8.79 L23.59 12.66 Z M13.21 13.19 L4.79 11.99 L4.59 13.41 L13.01 14.61 Z M6.41 12.66 L1.26 8.79 L0.39 9.94 L5.54 13.81 Z M16.79 18.01 L25.21 19.21 L25.41 17.79 L16.99 16.59 Z M23.59 18.48 L28.68 22.81 L29.61 21.72 L24.52 17.39 Z M13.01 16.59 L4.59 17.79 L4.79 19.21 L13.21 18.01 Z M5.48 17.39 L0.39 21.72 L1.32 22.81 L6.41 18.48 Z M16.03 20.22 L23.32 23.87 L23.97 22.58 L16.68 18.93 Z M21.99 22.79 L26.49 28.41 L27.61 27.51 L23.11 21.89 Z M13.32 18.93 L6.03 22.58 L6.68 23.87 L13.97 20.22 Z M6.89 21.89 L2.39 27.51 L3.51 28.41 L8.01 22.79 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M34 15 L118 8 L118 10.2 L34 16.4 Z",
+              "fill": "textSecondary"
+            },
+            {
+              "d": "M34 15 L118 22 L118 19.8 Z",
+              "fill": "textSecondary"
+            },
+            {
+              "d": "M34 15 L118 15 L118 16.4 L34 16.4 Z",
+              "fill": "textSecondary"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
